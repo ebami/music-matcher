@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Backend service for music matcher"
+authors = ["Example <example@example.com>"]
+packages = [{ include = "backend" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+scikit-learn = "*"
+pandas = "*"
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+# Add dev dependencies here
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
