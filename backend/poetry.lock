@@ -1,0 +1,26 @@
+# This lock file was generated in an environment without internet access
+# and serves as a placeholder. Run `poetry lock` in an online environment
+# to generate a complete lock file.
+[[package]]
+name = "fastapi"
+version = "*"
+
+[[package]]
+name = "sqlalchemy"
+version = "*"
+
+[[package]]
+name = "psycopg2-binary"
+version = "*"
+
+[[package]]
+name = "scikit-learn"
+version = "*"
+
+[[package]]
+name = "pandas"
+version = "*"
+
+[[package]]
+name = "python-dotenv"
+version = "*"
